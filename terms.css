@@ -1,0 +1,22 @@
+div{
+    text-align: left;
+    color: black;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .terms-container{
+    text-align: left;
+    justify-content: justify;
+  }
+  body{
+    background-color: rgba(94, 94, 94, 0.5);
+  }
+  @media(max-width:768px){
+    div{
+      font-size: 16px;
+    }
+    .terms-container{
+      font-size: 14px;
+    }
+  }
+  
